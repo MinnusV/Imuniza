@@ -5,6 +5,8 @@ using UnityEngine;
 public class QuestoesData {
     public static string[][] mPerguntas = new string[2][];
 
+    public static string respAux;
+
     public static void AddQuestao()
     {
         mPerguntas[0] = new string[10];
@@ -41,23 +43,19 @@ public class QuestoesData {
         mPerguntas[1][0] = "------------------";
 
         //Resposta #1
-        mPerguntas[1][1] = "----------------------";
-        mPerguntas[1][2] = "Muito bem, você sabe mesmo! Reações como febre, cansaço, dor e vermelhidão local podem ocorrer " +
-                                        "exatamente por isso, mas elas são geralmente transitórias (temporárias) e não fazem mal.";
-        mPerguntas[1][3] = "30";
+        mPerguntas[1][1] = "----------------------------";
+        mPerguntas[1][2] = "************************";
+        mPerguntas[1][3] = "10";
 
         //Resposta #2
-        mPerguntas[1][4] = "----------------------";
-        mPerguntas[1][5] = "É normal a ocorrência de reações, vacinas estimulam a produção de anticorpos e a " +
-                                        "defesa do organismo. Isso pode causar febre, cansaço, dor e vermelhidão local, mas " +
-                                        "são geralmente reações transitórias (temporárias) e não fazem mal.";
-        mPerguntas[1][6] = "0";
+        mPerguntas[1][4] = "-----------------------";
+        mPerguntas[1][5] = "*****************************************************************";
+        mPerguntas[1][6] = "30";
 
         //Resposta #3
-        mPerguntas[1][7] = "----------------------";
-        mPerguntas[1][8] = "Vacinas podem causar reações, mas isso não quer dizer que todo mundo vai senti-las. Isso não significa " +
-                                        "que a vacina não está funcionando.";
-        mPerguntas[1][9] = "10";
+        mPerguntas[1][7] = "------------------";
+        mPerguntas[1][8] = "***";
+        mPerguntas[1][9] = "0";
     }
 
 }

@@ -689,6 +689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnProx: {fileID: 738350369}
+  just: {fileID: 159124919}
+  pontos: {fileID: 1584172675}
 --- !u!114 &1894171339
 MonoBehaviour:
   m_ObjectHideFlags: 0

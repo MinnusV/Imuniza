@@ -25,5 +25,9 @@ public class Score : MonoBehaviour {
         {
             sliderPontos.value++;
         }
+        else
+        {
+            UserData.userPontos = 0;
+        }
 	}
 }
