@@ -38,6 +38,17 @@ public class Questoes : MonoBehaviour {
         UserData.numQuestao++;
     }
 
+    public void ResetarNumQuestao()
+    {
+        UserData.numQuestao = 0;
+        UserData.userPontos = 0;
+    }
+
+    public void PularPergunta()
+    {
+        ProxPergunta(UserData.numQuestao);
+    }
+
     public void SalvaTxtJustificativa(Text resposta)
     {
         QuestoesData.respAux = resposta.text;
